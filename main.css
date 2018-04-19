@@ -1,0 +1,75 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1.5;
+  text-align: left;
+  padding: 25px;
+  height: 100%;
+  background: #DDD;
+  background: white;
+  color: #555;
+}
+
+.card {
+  margin: auto;
+  width: 250px;
+  padding: 25px;
+  background: white;
+  border-radius: .1rem;
+  text-align: center;
+  line-height: 1;
+  box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.5);
+}
+
+.card :last-child {
+  margin-bottom: 0;
+}
+
+.card .avatar {
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.card .name {
+    margin-bottom: 12px;
+    font-size: 1.5rem;
+}
+
+.card .blurb {
+    font-style: italic;
+    text-align: left;
+    color: #999;
+}
+
+.card .blurb a,
+.card .blurb a:visited {
+  color: #333;
+}
+
+.card .blurb a:active,
+.card .blurb a:hover {
+  color: #222;
+}
+
+.card .contact-me {
+    font-size: 32px;
+}
+
+.card .contact-me a,
+.card .contact-me a:visited {
+    text-decoration: none;
+    color: #999;
+}
+
+.card .contact-me a:active,
+.card .contact-me a:hover {
+    color: #555;
+}
